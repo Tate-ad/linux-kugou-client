@@ -1,0 +1,7 @@
+/bower_components/
+/node_modules/
+/app/node_modules/
+/.idea/
+/.tern-project
+/.jshintrc
+/.editorconfig
