@@ -7,4 +7,3 @@ var kgcli = require("node-kugou-client");
 var localStorage = win.window.localStorage;
 
 var kugou = angular.module("kugou", []);
-

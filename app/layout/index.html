@@ -7,36 +7,9 @@
     <link rel="stylesheet" href="../public/css/page.css">
 </head>
 <body>
-
     <div class="containser">
-
-        <div class="pl" ng-controller="playInfoController">
-
-            <div class="current-play">
-                <p ng-bind="current_play"></p>
-            </div>
-
-            <div class="player-play">
-            </div>
-
-            <div class="list-play">
-                <ul>
-                    <li ng-repeat="sing in songs">
-                        <input type="checkbox">
-                        <p><a ng-bind="sing.filename" href="#"></a></p>
-                    </li>
-                </ul>
-            </div>
-
-        </div>
-
-        <div class="pr">
-        </div>
-
     </div>
-
 </body>
-    <!-- <script src="../jslibs/jquery.js"></script> -->
     <script src="../jslibs/angular.js"></script>
     <script src="../public/js/app.js"></script>
 </html>

@@ -5,7 +5,6 @@ Kugou linux desktop app
 
     ```
     $ git clone git@bitbucket.org:Tate_fan/kugou.git
-    $ npm install
-    $ bower install
+    $ make install
     $ make build
     ```
