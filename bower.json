@@ -4,8 +4,8 @@
   "authors": ["tate <yongtao.fan@adleida.com>"],
   "description": "kugou linux client",
   "dependencies":{
-      "jquery": "2.1.4",
-      "angular": "1.4.5"
+    "jquery": "2.1.4",
+    "angular": "1.4.5"
   },
   "keywords": ["kugou", "linux", "client", "desktop"],
   "license": "MIT"

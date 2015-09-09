@@ -1,27 +1,27 @@
 {
-    "name": "kugou",
-    "version": "1.0.1",
-    "main": "./layout/index.html",
-    "description": "kugou linux client desktop app",
-    "single-instance": true,
-    "window": {
-        "width": 960,
-        "height": 600,
-        "toolbar": true,
-        "resizable": false
-    },
-    "dependencies": {
-        "node-kugou-client": ">=0.0.3"
-    },
-    "chromium-args": [
-        "--child-clean-exit",
-        "--allow-file-access"
-    ],
-    "permissions": ["storage"],
-    "webkit": {
-        "plugin": true
-    },
-    "keywords": ["kugou", "linux", "desktop", "app"],
-    "author": "tate_fan",
-    "license": "ISC"
+  "name": "kugou",
+  "version": "1.0.1",
+  "main": "./layout/index.html",
+  "description": "kugou linux client desktop app",
+  "single-instance": true,
+  "window": {
+    "width": 960,
+    "height": 600,
+    "toolbar": true,
+    "resizable": false
+  },
+  "dependencies": {
+    "node-kugou-client": ">=0.0.3"
+  },
+  "chromium-args": [
+    "--child-clean-exit",
+    "--allow-file-access"
+  ],
+  "permissions": ["storage"],
+  "webkit": {
+    "plugin": true
+  },
+  "keywords": ["kugou", "linux", "desktop", "app"],
+  "author": "tate_fan",
+  "license": "ISC"
 }
