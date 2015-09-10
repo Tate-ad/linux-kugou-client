@@ -1,7 +1,6 @@
 /* Grunt file */
 
 module.exports = function(grunt) {
-
     grunt.initConfig({
         jshint: {
             "files": ['Gruntfile.js', 'app/public/js/*.js'],
@@ -17,7 +16,6 @@ module.exports = function(grunt) {
             }
         }
     });
-
     grunt.loadNpmTasks("grunt-contrib-watch");
     grunt.loadNpmTasks("grunt-contrib-jshint");
     grunt.registerTask("default", ['watch']);

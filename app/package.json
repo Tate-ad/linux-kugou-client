@@ -7,7 +7,7 @@
   "window": {
     "width": 960,
     "height": 600,
-    "toolbar": true,
+    "toolbar": false,
     "resizable": false
   },
   "dependencies": {
@@ -15,7 +15,8 @@
   },
   "chromium-args": [
     "--child-clean-exit",
-    "--allow-file-access"
+    "--allow-file-access",
+    "--no-toolbar"
   ],
   "permissions": ["storage"],
   "webkit": {
