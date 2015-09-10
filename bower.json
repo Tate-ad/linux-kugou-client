@@ -5,7 +5,8 @@
   "description": "kugou linux client",
   "dependencies":{
     "jquery": "2.1.4",
-    "angular": "1.4.5"
+    "angular": "1.4.5",
+    "normalize.css": "3.0.2"
   },
   "keywords": ["kugou", "linux", "client", "desktop"],
   "license": "MIT"
