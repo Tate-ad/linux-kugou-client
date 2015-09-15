@@ -7,15 +7,7 @@ var localStorage = win.window.localStorage;
 
 var kugou = angular.module("kugou", []);
 
-kugou.controller("test", function($scope) {
-
-  $scope.find = function(name) {
-    kgcli.search(name).then(function(data){
-      $scope.songs = data.data.songs;
-    })
-    .catch(function(error){
-      console.log(error);
-    });
-  };
+kugou.controller("info", function($scope){
+  $scope.current_play = "黄家驹-海阔天空";
+  $scope.singer_name = "jiaju";
 });
-

@@ -7,19 +7,87 @@
     <link rel="stylesheet" href="../public/css/page.css">
 </head>
 <body>
-
+  <!--page-->
   <div class="container">
+    <!--header-->
+    <div class="header" ng-controller="info">
 
-    <div class="header">
+      <div class="current ib tc w45">
+        <p>当前播放: {{current_play}} </p>
+      </div>
+
+      <div class="search ib w45">
+        <form>
+          <input type="search" placeholder="the singer name" ng-model="singer_name">
+        </form>
+      </div>
+
     </div>
 
-    <div class="left">
+
+    <!--body-->
+    <div class="content">
+
+      <!--left-->
+      <div class="left ib w45">
+
+        <div class="player">
+        </div>
+
+        <div class="player-list">
+        </div>
+      </div>
+      <!--end left-->
+
+      <!--right-->
+      <div class="right ib">
+
+        <!--nav list-->
+        <div class="nav-list">
+          <nav>
+            <ul>
+              <li class="ib"><a href="#">搜索</a></li>
+              <li class="ib"><a href="#">流行</a></li>
+              <li class="ib"><a href="#">歌词</a></li>
+              <li class="ib"><a href="#">电台</a></li>
+            </ul>
+          </nav>
+        </div>
+        <hr>
+        <!--search list-->
+        <div class="search-list">
+          <ul>
+            <li ng-repeat="song in songs">
+              <p><input type="checkbox" checked></p>
+              <p><a id="song.hash" href="#">{{ song.filename }}</a></p>
+              <p><a href="#">试听</a></p>
+              <p><a href="#">添加</a></p>
+              <p><a href="#">下载</a></p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--end right-->
+
+      <!--footer-->
+      <div class="content-footer">
+      </div>
+      <!--end footer-->
     </div>
 
-    <div class="right">
+
+    <!--page footer-->
+    <div class="footer fixclean tc">
+      <address>
+        <p>
+          Content To: <a href="mailto:tate_fan@163.com">Tate_fan</a>
+        </p>
+      </address>
     </div>
+    <!--end page footer-->
 
   </div>
+  <!--end page-->
 
 </body>
     <script src="../jslibs/angular.js"></script>
